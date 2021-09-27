@@ -1,3 +1,12 @@
 {
-
+  "header": {
+    "logo": "Delivery",
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "services": "Services",
+      "contact": "Contact us"
+    },
+    "order": "Order now!"
+  }
 }
