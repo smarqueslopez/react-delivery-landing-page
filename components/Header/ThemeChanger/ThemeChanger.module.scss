@@ -4,4 +4,9 @@
   top: 2.2rem;
   color: var(--title-color);
   font-size: 1.8rem;
+
+  /* For medium devices */
+  @media screen and (min-width: 767px) {
+    position: initial;
+  }
 }

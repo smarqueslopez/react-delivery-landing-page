@@ -16,9 +16,8 @@
     justify-content: center;
     grid-template-columns: repeat(2, max-content);
     gap: 0.5rem;
-
   }
-  
+
   /* For small devices */
   @media screen and (max-width: 360px) {
     &__buttons {
@@ -39,6 +38,12 @@
 
     &__img {
       order: -1;
+    }
+  }
+
+  @media screen and (min-width: 767px) {
+    &__buttons {
+      justify-content: initial;
     }
   }
 }

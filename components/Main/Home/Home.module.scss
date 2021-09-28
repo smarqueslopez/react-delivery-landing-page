@@ -24,4 +24,10 @@
       order: 1;
     }
   }
+
+  @media screen and (min-width: 767px) {
+    &__container {
+      padding: 6rem 0 2rem;
+    }
+  }
 }

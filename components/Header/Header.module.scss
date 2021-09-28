@@ -76,5 +76,19 @@
       font-size: 1.3rem;
       cursor: pointer;
     }
+
+    /* For medium devices */
+    @media screen and (min-width: 767px) {
+      height: calc(var(--header-height) + 1.5rem);
+
+      &__list {
+        flex-direction: row;
+        column-gap: 2rem;
+      }
+
+      &__toggle {
+        display: none;
+      }
+    }
   }
 }
