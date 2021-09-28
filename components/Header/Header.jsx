@@ -1,13 +1,15 @@
 import { useState, useEffect } from 'react'
+import ThemeChanger from './ThemeChanger/ThemeChanger'
 import { useTranslate } from '@/hooks/useTranslate'
+import useWindowDimensions from '@/hooks/useWindowDimensions'
 import classNames from 'classnames'
 import layout from '@/styles/Layout.module.scss'
 import style from './Header.module.scss'
-import ThemeChanger from './ThemeChanger/ThemeChanger'
 
 function Header() {
   const [toggle, setToggle] = useState(false)
   const translate = useTranslate()
+  const { width } = useWindowDimensions()
 
   useEffect(() => {
     window.addEventListener('scroll', (e) => {
@@ -60,7 +62,7 @@ function Header() {
         <div
           className={classNames({
             [style.nav__menu]: true,
-            [style['menu-show']]: toggle
+            [style['menu-show']]: toggle || width >= 767
           })}
         >
           <ul className={style.nav__list} onClick={clickHandler}>
@@ -103,8 +105,8 @@ function Header() {
                 {translate.header.nav.contact}
               </a>
             </li>
+            <ThemeChanger />
           </ul>
-          <ThemeChanger />
         </div>
         <div className={style.nav__toggle} onClick={() => setToggle(!toggle)}>
           <i className='bx bx-grid-alt' />
