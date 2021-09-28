@@ -49,8 +49,8 @@
     color: var(--text-color);
   }
 
-    /* For medium devices */
-  @media screen and (min-width: 567px) {
+  /* For medium devices */
+  @media screen and (min-width: 576px) {
     &__container {
       grid-template-columns: repeat(2, 1fr);
     }
@@ -60,4 +60,18 @@
     }
   }
 
+  /* For large devices */
+  @media screen and (min-width: 968px) {
+    &__container {
+      grid-template-columns: repeat(5, 1fr);
+    }
+
+    &__social {
+      align-items: flex-start;
+
+      &-link {
+        font-size: 1.45rem;
+      }
+    }
+  }
 }

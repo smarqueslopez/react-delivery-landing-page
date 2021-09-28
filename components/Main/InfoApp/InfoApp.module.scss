@@ -26,7 +26,7 @@
   }
 
   /* For medium devices */
-  @media screen and (min-width: 567px) {
+  @media screen and (min-width: 576px) {
     &__container {
       align-items: center;
       grid-template-columns: repeat(2, 1fr);
@@ -44,6 +44,13 @@
   @media screen and (min-width: 767px) {
     &__buttons {
       justify-content: initial;
+    }
+  }
+
+  /* For large devices */
+  @media screen and (min-width: 968px) {
+    &__container {
+      column-gap: 6rem;
     }
   }
 }

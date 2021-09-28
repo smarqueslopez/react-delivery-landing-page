@@ -27,9 +27,16 @@
   }
 
   /* For medium devices */
-  @media screen and (min-width: 567px) {
+  @media screen and (min-width: 576px) {
     &__container {
       grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  /* For large devices */
+  @media screen and (min-width: 968px) {
+    &__container {
+      grid-template-columns: repeat(3, 1fr);
     }
   }
 }
