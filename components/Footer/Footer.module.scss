@@ -48,4 +48,16 @@
     font-size: var(--smaller-font-size);
     color: var(--text-color);
   }
+
+    /* For medium devices */
+  @media screen and (min-width: 567px) {
+    &__container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    &__description {
+      text-align: initial;
+    }
+  }
+
 }

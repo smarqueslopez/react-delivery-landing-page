@@ -6,4 +6,22 @@
   &__description {
     text-align: center;
   }
+
+  /* For medium devices */
+  @media screen and (min-width: 567px) {
+    &__container {
+      align-items: center;
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    &__data,
+    &__description {
+      text-align: initial;
+    }
+
+    &__img {
+      order: 1;
+    }
+  }
+
 }

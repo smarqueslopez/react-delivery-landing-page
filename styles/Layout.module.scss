@@ -24,6 +24,13 @@
   @media screen and (max-width: 360px) {
     padding: 3.5rem 0 1rem;
   }
+
+  /* For medium devices */
+  @media screen and (min-width: 567px) {
+    &__title-center {
+      text-align: initial;
+    }
+  }
 }
 
 .svg {
@@ -43,6 +50,11 @@
 
     /* For small devices */
     @media screen and (max-width: 360px) {
+      width: 100%;
+    }
+
+    /* For medium devices */
+    @media screen and (min-width: 567px) {
       width: 100%;
     }
   }

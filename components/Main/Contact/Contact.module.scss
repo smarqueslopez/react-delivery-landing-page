@@ -17,4 +17,16 @@
     font-weight: var(--font-semi-bold);
     color: var(--title-color);
   }
+
+  /* For medium devices */
+  @media screen and (min-width: 567px) {
+    &__container {
+      align-items: center;
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    &__description {
+      text-align: initial;
+    }
+  }
 }
