@@ -22,6 +22,16 @@
     "security": {
       "title": "Your Safety Is Important",
       "description": "When your order reaches you, we have the health safety protocols, so that you are protected from any disease. Watch the video of how the delivery is made."
+    },
+    "services": {
+      "title": "Some Services We Offer",
+      "learnMore": "Learn more",
+      "servOff1": "Payment Done",
+      "descOff1": "Pay with a Visa or PayPal card and without much ado.",
+      "servOff2": "Find Your Product",
+      "descOff2": "We offer sale of products through the Internet.",
+      "servOff3": "Product Received",
+      "descOff3": "In our app you can see the delay time of your order."
     }
   }
 }

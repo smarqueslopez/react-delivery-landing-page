@@ -22,6 +22,16 @@
     "security": {
       "title": "Tu seguridad es imporntante",
       "description": "Cuando te llega tu pedido, contamos con protocolos de seguridad sanitaria, para que estés protegido de cualquier enfermedad. Mira el video de cómo se realiza la entrega."
+    },
+    "services": {
+      "title": "Algunos servicios que ofrecemos",
+      "learnMore": "Aprende más",
+      "servOff1": "Facilidades de Pago",
+      "descOff1": "Paga con Visa o PayPal sin ningún problema.",
+      "servOff2": "Encuentra tu producto",
+      "descOff2": "Ofrecemos venta de productos a través de Internet.",
+      "servOff3": "Seguimiento del pedido",
+      "descOff3": "En nuestra aplicación puede ver en tiempo real su pedido."
     }
   }
 }
