@@ -17,8 +17,11 @@
     grid-template-columns: repeat(2, max-content);
     gap: 0.5rem;
 
-    /* For small devices */
-    @media screen and (max-width: 360px) {
+  }
+  
+  /* For small devices */
+  @media screen and (max-width: 360px) {
+    &__buttons {
       grid-template-columns: max-content;
     }
   }

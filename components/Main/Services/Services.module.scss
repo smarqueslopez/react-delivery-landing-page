@@ -17,9 +17,11 @@
     width: 135px;
     justify-self: center;
     margin-bottom: var(--m-0-5);
+  }
 
-    /* For small devices */
-    @media screen and (max-width: 360px) {
+  /* For small devices */
+  @media screen and (max-width: 360px) {
+    &__img {
       width: 100px;
     }
   }

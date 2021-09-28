@@ -47,14 +47,18 @@
   &__img {
     width: 300px;
     justify-self: center;
+  }
 
-    /* For small devices */
-    @media screen and (max-width: 360px) {
+  /* For small devices */
+  @media screen and (max-width: 360px) {
+    &__img {
       width: 100%;
     }
+  }
 
-    /* For medium devices */
-    @media screen and (min-width: 567px) {
+  /* For medium devices */
+  @media screen and (min-width: 567px) {
+    &__img {
       width: 100%;
     }
   }
