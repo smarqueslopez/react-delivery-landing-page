@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useTranslate } from '@/hooks/useTranslate'
 import classNames from 'classnames'
 import layout from '@/styles/Layout.module.scss'
@@ -7,6 +7,33 @@ import style from './Header.module.scss'
 function Header() {
   const [toggle, setToggle] = useState(false)
   const translate = useTranslate()
+
+  useEffect(() => {
+    window.addEventListener('scroll', (e) => {
+      const navMenu = classNames(style.nav__menu)
+      if (navMenu) {
+        const sectionList = document.querySelectorAll('section[id]')
+        sectionList.forEach((section) => {
+          const sectionId = section.getAttribute('id')
+          const querySelector = `.${navMenu} a[href*='${sectionId}']`
+          const menuItem = document.querySelector(querySelector)
+          if (menuItem) {
+            const scrollY = window.scrollY
+            const sectionTop = section.offsetTop - 50
+            const activeLinkClass = classNames(style['nav__link--active'])
+            if (
+              scrollY > sectionTop &&
+              scrollY <= sectionTop + section.offsetHeight
+            ) {
+              menuItem.classList.add(activeLinkClass)
+            } else {
+              menuItem.classList.remove(activeLinkClass)
+            }
+          }
+        })
+      }
+    })
+  })
 
   const clickHandler = (e) => {
     if (e.target.tagName === 'A') {
@@ -31,7 +58,10 @@ function Header() {
               <a
                 href='#home'
                 title={translate.header.nav.home}
-                className={style.nav__link}
+                className={classNames(
+                  [style.nav__link],
+                  style['nav__link--active']
+                )}
               >
                 {translate.header.nav.home}
               </a>

@@ -52,6 +52,22 @@
       font-weight: var(--font-semi-bold);
     }
 
+    &__link {
+      &--active {
+        position: relative;
+        &::before {
+          content: '';
+          position: absolute;
+          bottom: -0.75rem;
+          left: 45%;
+          width: 5px;
+          height: 5px;
+          background-color: var(--title-color);
+          border-radius: 50%;
+        }
+      }
+    }
+
     &__toggle {
       font-size: 1.3rem;
       cursor: pointer;
