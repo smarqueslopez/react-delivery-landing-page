@@ -27,7 +27,7 @@
   }
 
   &__blob {
-    path[fill-rule="evenodd"] {
+    path[fill-rule='evenodd'] {
       fill: var(--first-color-light);
     }
   }
@@ -49,5 +49,15 @@
 
   &:hover {
     background-color: var(--first-color-alt);
+  }
+
+  &--link {
+    background: none;
+    padding: 0;
+    color: var(--title-color);
+
+    &:hover {
+      background-color: transparent;
+    }
   }
 }
