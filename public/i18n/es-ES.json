@@ -52,5 +52,36 @@
       },
       "contactUs": "Contáctanos"
     }
+  },
+  "footer": {
+    "logo": "Delivery",
+    "description": "Pide productos fácil y rápido",
+    "services": "Nuestros Servicios",
+    "pricing": "Precios",
+    "discounts": "Descuentos",
+    "reportBug": "Informa de un error",
+    "terms": "Términos del servicio",
+    "company": "Nuestra compañía",
+    "blog": "Blog",
+    "ourMission": "Nuestra misión",
+    "getTouch": "Contáctanos",
+    "community": "Comunidad",
+    "support": "Soporte",
+    "questions": "Preguntas",
+    "help": "Ayuda",
+    "social": {
+      "facebook": {
+        "title": "facebook",
+        "link": "https://www.facebook.com/"
+      },
+      "twitter": {
+        "title": "twitter",
+        "link": "https://www.twitter.com/"
+      },
+      "instagram": {
+        "title": "instagram",
+        "link": "https://www.instagram.com/"
+      }
+    }
   }
 }

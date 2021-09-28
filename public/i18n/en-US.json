@@ -52,5 +52,36 @@
       },
       "contactUs": "Contact Us"
     }
+  },
+  "footer": {
+    "logo": "Delivery",
+    "description": "Order Products Faster Easier",
+    "services": "Our Services",
+    "pricing": "Pricing",
+    "discounts": "Discounts",
+    "reportBug": "Report a Bug",
+    "terms": "Terms of Service",
+    "company": "Our Company",
+    "blog": "Blog",
+    "ourMission": "Our Mission",
+    "getTouch": "Get in Touch",
+    "community": "Community",
+    "support": "Support",
+    "questions": "Questions",
+    "help": "Customer Help",
+    "social": {
+      "facebook": {
+        "title": "facebook",
+        "link": "https://www.facebook.com/"
+      },
+      "twitter": {
+        "title": "twitter",
+        "link": "https://www.twitter.com/"
+      },
+      "instagram": {
+        "title": "instagram",
+        "link": "https://www.instagram.com/"
+      }
+    }
   }
 }
