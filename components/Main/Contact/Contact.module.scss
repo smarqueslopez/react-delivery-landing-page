@@ -11,7 +11,8 @@
     text-align: center;
   }
 
-  &__address {
+  &__address,
+  &__information {
     font-size: var(--small-font-size);
     font-weight: var(--font-semi-bold);
     color: var(--title-color);
