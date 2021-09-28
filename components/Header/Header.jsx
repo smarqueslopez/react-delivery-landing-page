@@ -3,6 +3,7 @@ import { useTranslate } from '@/hooks/useTranslate'
 import classNames from 'classnames'
 import layout from '@/styles/Layout.module.scss'
 import style from './Header.module.scss'
+import ThemeChanger from './ThemeChanger/ThemeChanger'
 
 function Header() {
   const [toggle, setToggle] = useState(false)
@@ -103,6 +104,7 @@ function Header() {
               </a>
             </li>
           </ul>
+          <ThemeChanger />
         </div>
         <div className={style.nav__toggle} onClick={() => setToggle(!toggle)}>
           <i className='bx bx-grid-alt' />

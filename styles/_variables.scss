@@ -1,23 +1,49 @@
 // Google fonts
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
-// CSS variables
-:root {
-  // Colors
+@mixin theme-commons {
   --hue: 45;
   --sat: 98%;
   --first-color: hsl(var(--hue), var(--sat), 60%);
-  --first-color-light: hsl(var(--hue), var(--sat), 85%);
   --first-color-lighten: hsl(var(--hue), var(--sat), 80%);
   --first-color-alt: hsl(var(--hue), var(--sat), 53%);
+  --text-color-light: hsl(var(--hue), 4%, 65%);
+  --black-color: #1a1a1a;
+  --white-color: #fff;
+}
+
+@mixin light-theme {
+  @include theme-commons;
+
+  --first-color-light: hsl(var(--hue), var(--sat), 85%);
   --title-color: hsl(var(--hue), 4%, 15%);
   --text-color: hsl(var(--hue), 4%, 35%);
-  --text-color-light: hsl(var(--hue), 4%, 65%);
   --body-color: hsl(var(--hue), 0%, 100%);
-  --container-color: #fff;
+  --container-color: var(--white-color);
   --scroll-bar-color: hsl(var(--hue), 4%, 85%);
   --scroll-thumb-color: hsl(var(--hue), 4%, 75%);
-  --black-color: #1a1a1a;
+}
+
+@mixin dark-theme {
+  @include theme-commons;
+
+  --first-color-light: hsl(var(--hue), var(--sat), 75%);
+  --title-color: hsl(var(--hue), 4%, 95%);
+  --text-color: hsl(var(--hue), 4%, 80%);
+  --body-color: hsl(var(--hue), 8%, 13%);
+  --container-color: hsl(var(--hue), 8%, 16%);
+  --scroll-bar-color: hsl(var(--hue), 4%, 32%);
+  --scroll-thumb-color: hsl(var(--hue), 4%, 24%);
+
+  #footer {
+    background-color: var(--container-color);
+  }
+}
+
+// CSS variables
+:root {
+  // Colors (light theme by default)
+  @include light-theme;
 
   // Fonts
   --body-font: 'Poppins', sans-serif;

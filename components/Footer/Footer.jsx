@@ -7,7 +7,10 @@ function Footer() {
   const translate = useTranslate()
 
   return (
-    <footer className={classNames([style.footer], [layout.section])}>
+    <footer
+      id='footer'
+      className={classNames([style.footer], [layout.section])}
+    >
       <div
         className={classNames(
           [style.footer__container],
