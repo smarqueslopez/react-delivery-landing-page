@@ -8,5 +8,12 @@
       "contact": "Contact us"
     },
     "order": "Order now!"
+  },
+  "main": {
+    "home": {
+      "title": "Order Products Faster Easier",
+      "description": "Order your favorite foods at any time and we will deliver them right to where you are.",
+      "getStarted": "Get Started"
+    }
   }
 }

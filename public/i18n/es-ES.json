@@ -8,5 +8,12 @@
       "contact": "Contacto"
     },
     "order": "¡Pide ya!"
+  },
+  "main": {
+    "home": {
+      "title": "Pide tus productos rápido y fácil",
+      "description": "Pide tus comidas favoritas a cualquier hora y te lo llevaremos justo dónde estés",
+      "getStarted": "Empecemos"
+    }
   }
 }
