@@ -18,6 +18,10 @@
     "about": {
       "title": "Find Out A Little More About Us",
       "description": "We are a company dedicated to the distribution of products by delivery to your home or to the place where you are, with the best quality of delivery."
+    },
+    "security": {
+      "title": "Your Safety Is Important",
+      "description": "When your order reaches you, we have the health safety protocols, so that you are protected from any disease. Watch the video of how the delivery is made."
     }
   }
 }
