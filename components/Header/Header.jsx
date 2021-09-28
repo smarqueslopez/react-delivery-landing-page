@@ -10,6 +10,15 @@ function Header() {
 
   useEffect(() => {
     window.addEventListener('scroll', (e) => {
+      const header = document.getElementById('header')
+      window.scrollY >= 80
+        ? header.classList.add(style['scroll-header'])
+        : header.classList.remove(style['scroll-header'])
+    })
+  }, [])
+
+  useEffect(() => {
+    window.addEventListener('scroll', (e) => {
       const navMenu = classNames(style.nav__menu)
       if (navMenu) {
         const sectionList = document.querySelectorAll('section[id]')
@@ -42,7 +51,7 @@ function Header() {
   }
 
   return (
-    <header className={style.header}>
+    <header className={style.header} id='header'>
       <nav className={classNames([style.nav], [layout.container])}>
         <a href='#' className={style.nav__logo} title={translate.header.logo}>
           {translate.header.logo}

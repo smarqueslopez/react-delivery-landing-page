@@ -11,6 +11,10 @@
     display: none;
   }
 
+  &.scroll-header {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  }
+
   .nav {
     height: var(--header-height);
     display: flex;
