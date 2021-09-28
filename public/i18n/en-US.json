@@ -32,6 +32,12 @@
       "descOff2": "We offer sale of products through the Internet.",
       "servOff3": "Product Received",
       "descOff3": "In our app you can see the delay time of your order."
+    },
+    "app": {
+      "title": "Watch Your Delivery At Any Time",
+      "description": "With our app you can view the route of your order, from our local headquarters to the place where you are. Look for the app now!",
+      "storeApple": "App Store",
+      "storeGoogle": "Google Play"
     }
   }
 }

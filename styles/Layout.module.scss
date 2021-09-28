@@ -60,4 +60,15 @@
       background-color: transparent;
     }
   }
+
+  &--flex {
+    display: inline-flex;
+    align-items: center;
+    column-gap: 0.25rem;
+    padding: 0.75rem 1rem;
+  }
+
+  &__icon {
+    font-size: 1.5rem;
+  }
 }

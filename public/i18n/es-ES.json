@@ -32,6 +32,12 @@
       "descOff2": "Ofrecemos venta de productos a través de Internet.",
       "servOff3": "Seguimiento del pedido",
       "descOff3": "En nuestra aplicación puede ver en tiempo real su pedido."
+    },
+    "app": {
+      "title": "Sigue tu pedido en tiempo real",
+      "description": "Con nuestra app puedes observar la ruta de tu pedido, desde nuestra central a dónde estés. ¡Síguelo en la app!",
+      "storeApple": "App Store",
+      "storeGoogle": "Google Play"
     }
   }
 }
