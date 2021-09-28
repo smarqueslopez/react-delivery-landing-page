@@ -26,7 +26,9 @@ function Footer() {
           >
             {translate.footer.logo}
           </a>
-          <p className={style.footer__description}></p>
+          <p className={style.footer__description}>
+            {translate.footer.description}
+          </p>
         </div>
         <div className={style.footer__content}>
           <h3 className={style.footer__title}>{translate.footer.services}</h3>
