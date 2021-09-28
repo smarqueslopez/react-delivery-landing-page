@@ -1,0 +1,26 @@
+.scroll-up {
+  position: fixed;
+  background-color: var(--first-color);
+  right: 1rem;
+  bottom: -20%;
+  display: inline-flex;
+  padding: 0.3rem;
+  border-radius: 0.25rem;
+  z-index: var(--z-tooltip);
+  opacity: 0.8;
+  transition: 0.4s;
+
+  &:hover {
+    background-color: var(--first-color);
+    opacity: 1;
+  }
+
+  &--show {
+    bottom: 5rem;
+  }
+
+  &__icon {
+    font-size: 1.25rem;
+    color: var(--title-color);
+  }
+}
