@@ -44,10 +44,10 @@ function Contact() {
               href={`mailto:${translate.main.contact.info.email}`}
               target='_blank'
               rel='noreferrer'
-              title={translate.main.contact.info.phone}
+              title={translate.main.contact.info.email}
               className={[style.contact__information]}
             >
-              {translate.main.contact.info.phone}
+              {translate.main.contact.info.email}
             </a>
           </li>
           <li className={[style.contact__address]}>
