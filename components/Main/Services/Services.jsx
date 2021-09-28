@@ -1,9 +1,9 @@
-import { ReactComponent as ServImg1 } from '../../../public/images/services1-ilustration.svg'
-import { ReactComponent as ServImg2 } from '../../../public/images/services2-ilustration.svg'
-import { ReactComponent as ServImg3 } from '../../../public/images/services3-ilustration.svg'
+import { ReactComponent as ServImg1 } from '@/images/services1-ilustration.svg'
+import { ReactComponent as ServImg2 } from '@/images/services2-ilustration.svg'
+import { ReactComponent as ServImg3 } from '@/images/services3-ilustration.svg'
 import classNames from 'classnames'
-import { useTranslate } from '../../../hooks/useTranslate'
-import layout from '../../../styles/Layout.module.scss'
+import { useTranslate } from '@/hooks/useTranslate'
+import layout from '@/styles/Layout.module.scss'
 import style from './Services.module.scss'
 
 function Services() {

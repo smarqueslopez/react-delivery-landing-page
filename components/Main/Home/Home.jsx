@@ -1,7 +1,7 @@
-import { ReactComponent as HomeImg } from '../../../public/images/home-ilustration.svg'
+import { ReactComponent as HomeImg } from '@/images/home-ilustration.svg'
 import classNames from 'classnames'
-import { useTranslate } from '../../../hooks/useTranslate'
-import layout from '../../../styles/Layout.module.scss'
+import { useTranslate } from '@/hooks/useTranslate'
+import layout from '@/styles/Layout.module.scss'
 import style from './Home.module.scss'
 
 function Home() {

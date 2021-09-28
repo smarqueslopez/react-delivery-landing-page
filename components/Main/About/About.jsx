@@ -1,7 +1,7 @@
-import { ReactComponent as AboutImg } from '../../../public/images/about-ilustration.svg'
+import { ReactComponent as AboutImg } from '@/images/about-ilustration.svg'
 import classNames from 'classnames'
-import { useTranslate } from '../../../hooks/useTranslate'
-import layout from '../../../styles/Layout.module.scss'
+import { useTranslate } from '@/hooks/useTranslate'
+import layout from '@/styles/Layout.module.scss'
 import style from './About.module.scss'
 
 function About() {

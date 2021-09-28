@@ -1,7 +1,7 @@
-import { ReactComponent as SecImg } from '../../../public/images/security-ilustration.svg'
+import { ReactComponent as SecImg } from '@/images/security-ilustration.svg'
 import classNames from 'classnames'
-import { useTranslate } from '../../../hooks/useTranslate'
-import layout from '../../../styles/Layout.module.scss'
+import { useTranslate } from '@/hooks/useTranslate'
+import layout from '@/styles/Layout.module.scss'
 import style from './Security.module.scss'
 
 function Security() {

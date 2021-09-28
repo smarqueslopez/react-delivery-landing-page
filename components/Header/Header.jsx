@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import { useTranslate } from '../../hooks/useTranslate'
+import { useTranslate } from '@/hooks/useTranslate'
 import classNames from 'classnames'
-import layout from '../../styles/Layout.module.scss'
+import layout from '@/styles/Layout.module.scss'
 import style from './Header.module.scss'
 
 function Header() {
