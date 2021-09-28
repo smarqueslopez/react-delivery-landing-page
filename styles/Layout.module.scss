@@ -27,7 +27,9 @@
   }
 
   &__blob {
-    fill: var(--first-color-light);
+    path[fill-rule="evenodd"] {
+      fill: var(--first-color-light);
+    }
   }
 
   &__img {
