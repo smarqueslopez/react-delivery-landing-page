@@ -30,4 +30,15 @@
       padding: 6rem 0 2rem;
     }
   }
+
+  /* For large devices */
+  @media screen and (min-width: 1024px) {
+    &__img {
+      width: 540px;
+    }
+
+    &__description {
+      padding-right: 5rem;
+    }
+  }
 }

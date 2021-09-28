@@ -2,6 +2,11 @@
   max-width: 968px;
   margin-left: var(--m-1-5);
   margin-right: var(--m-1-5);
+
+  /* For large devices */
+  @media screen and (min-width: 1024px) {
+    margin: 0 auto;
+  }
 }
 
 .grid {

@@ -23,4 +23,9 @@
     font-size: 1.25rem;
     color: var(--title-color);
   }
+
+  /* For large devices */
+  @media screen and (min-width: 1024px) {
+    right: 2rem;
+  }
 }

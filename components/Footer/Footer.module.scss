@@ -74,4 +74,10 @@
       }
     }
   }
+
+  @media screen and (min-width: 1024px) {
+    &__container {
+      column-gap: 3rem;
+    }
+  }
 }
