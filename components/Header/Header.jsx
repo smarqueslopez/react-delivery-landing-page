@@ -113,7 +113,7 @@ function Header() {
         </div>
         <a
           href='#'
-          className={([layout.button], [style.header__button])}
+          className={classNames([layout.button], [style.header__button])}
           title={translate.header.order}
         >
           {translate.header.order}
