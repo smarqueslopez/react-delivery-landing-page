@@ -48,7 +48,8 @@ function InfoApp() {
           className={classNames(
             [layout.svg__img],
             [layout.svg__color],
-            [layout.svg__blob]
+            [layout.svg__blob],
+            [style.app__img]
           )}
         />
       </div>
