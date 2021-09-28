@@ -43,8 +43,6 @@ function Services() {
             {translate.main.services.learnMore}
           </a>
         </div>
-      </div>
-      <div className={classNames([style.services__container], [layout.grid])}>
         <div className={[style.services__data]}>
           <h3 className={[style.services__subtitle]}>
             {translate.main.services.servOff2}
@@ -66,8 +64,6 @@ function Services() {
             {translate.main.services.learnMore}
           </a>
         </div>
-      </div>
-      <div className={classNames([style.services__container], [layout.grid])}>
         <div className={[style.services__data]}>
           <h3 className={[style.services__subtitle]}>
             {translate.main.services.servOff3}

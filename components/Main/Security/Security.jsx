@@ -16,12 +16,12 @@ function Security() {
       )}
       id='security'
     >
-      <div className={([style.security__container], [layout.grid])}>
-        <div className={[style.security__data]}>
-          <h2 className={[layout['section__title-center']]}>
+      <div className={classNames([style.security__container], [layout.grid])}>
+        <div className={style.security__data}>
+          <h2 className={layout['section__title-center']}>
             {translate.main.security.title}
           </h2>
-          <p className={[style.security__description]}>
+          <p className={style.security__description}>
             {translate.main.security.description}
           </p>
         </div>
@@ -29,7 +29,8 @@ function Security() {
           className={classNames(
             [layout.svg__img],
             [layout.svg__color],
-            [layout.svg__blob]
+            [layout.svg__blob],
+            [style.security__img]
           )}
         />
       </div>
