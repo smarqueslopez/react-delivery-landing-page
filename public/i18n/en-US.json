@@ -38,6 +38,19 @@
       "description": "With our app you can view the route of your order, from our local headquarters to the place where you are. Look for the app now!",
       "storeApple": "App Store",
       "storeGoogle": "Google Play"
+    },
+    "contact": {
+      "title": "Contact Us From Here",
+      "description": "You can contact us from here, you can write to us, call us or visit our service center, we will gladly assist you.",
+      "info": {
+        "phoneLabel": "Telephone",
+        "phone": "123 - 456 - 789",
+        "emailLabel": "Email",
+        "email": "delivery@email.com",
+        "addressLabel": "Location",
+        "address": "Planet Earth"
+      },
+      "contactUs": "Contact Us"
     }
   }
 }

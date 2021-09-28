@@ -38,6 +38,19 @@
       "description": "Con nuestra app puedes observar la ruta de tu pedido, desde nuestra central a dónde estés. ¡Síguelo en la app!",
       "storeApple": "App Store",
       "storeGoogle": "Google Play"
+    },
+    "contact": {
+      "title": "Contacta con nosotros",
+      "description": "Puedes contactarnos desde aquí, puedes escribirnos, llamarnos o visitar nuestro centro de servicio, con gusto te atenderemos.",
+      "info": {
+        "phoneLabel": "Teléfono",
+        "phone": "123 - 456 - 789",
+        "emailLabel": "Email",
+        "email": "delivery@email.com",
+        "addressLabel": "Dirección",
+        "address": "Planeta Tierra"
+      },
+      "contactUs": "Contáctanos"
     }
   }
 }

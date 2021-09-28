@@ -1,0 +1,19 @@
+.contact {
+  &__container {
+    padding-bottom: var(--m-3);
+  }
+
+  &__content {
+    row-gap: 0.75rem;
+  }
+
+  &__description {
+    text-align: center;
+  }
+
+  &__address {
+    font-size: var(--small-font-size);
+    font-weight: var(--font-semi-bold);
+    color: var(--title-color);
+  }
+}
