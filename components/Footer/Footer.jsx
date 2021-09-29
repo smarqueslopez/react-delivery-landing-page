@@ -73,7 +73,7 @@ function Footer() {
         </div>
         <div className={style.footer__content}>
           <h3 className={style.footer__title}>{translate.footer.company}</h3>
-          <ul className={style.footer__link}>
+          <ul className={style.footer__links}>
             <li>
               <a
                 href='#'
@@ -105,7 +105,7 @@ function Footer() {
         </div>
         <div className={style.footer__content}>
           <h3 className={style.footer__title}>{translate.footer.community}</h3>
-          <ul className={style.footer__link}>
+          <ul className={style.footer__links}>
             <li>
               <a
                 href='#'
