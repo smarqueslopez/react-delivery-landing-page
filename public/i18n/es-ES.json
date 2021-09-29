@@ -20,12 +20,12 @@
       "description": "Somos una compañía dedicada a la distribución de productos entregándolos en tu hogar o el lugar dónde estés, con la mejor calidad de entrega."
     },
     "security": {
-      "title": "Tu seguridad es imporntante",
+      "title": "Tu seguridad es importante",
       "description": "Cuando te llega tu pedido, contamos con protocolos de seguridad sanitaria, para que estés protegido de cualquier enfermedad. Mira el video de cómo se realiza la entrega."
     },
     "services": {
       "title": "Algunos servicios que ofrecemos",
-      "learnMore": "Aprende más",
+      "learnMore": "Más info",
       "servOff1": "Facilidades de Pago",
       "descOff1": "Paga con Visa o PayPal sin ningún problema.",
       "servOff2": "Encuentra tu producto",
