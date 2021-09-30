@@ -1,10 +1,10 @@
 import { useEffect } from 'react'
-import { useTranslate } from '@/hooks/useTranslate'
+import { useTranslation } from 'react-i18next'
 import classNames from 'classnames'
 import style from './ScrollUp.module.scss'
 
 function ScrollUp() {
-  const translate = useTranslate()
+  const { t } = useTranslation()
 
   useEffect(() => {
     const scrollUp = document.getElementById('scroll-up')
@@ -20,7 +20,7 @@ function ScrollUp() {
       href='#'
       className={style['scroll-up']}
       id='scroll-up'
-      title={translate.scrollUp.title}
+      title={t('scrollUp.title')}
     >
       <i
         className={classNames(

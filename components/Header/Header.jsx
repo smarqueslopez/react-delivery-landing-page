@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
+import { useTranslation } from 'react-i18next'
 import ThemeChanger from './ThemeChanger/ThemeChanger'
-import { useTranslate } from '@/hooks/useTranslate'
+import LanguageChanger from './LanguageChanger/LanguageChanger'
 import useWindowDimensions from '@/hooks/useWindowDimensions'
 import classNames from 'classnames'
 import layout from '@/styles/Layout.module.scss'
@@ -8,8 +9,8 @@ import style from './Header.module.scss'
 
 function Header() {
   const [toggle, setToggle] = useState(false)
-  const translate = useTranslate()
   const { width } = useWindowDimensions()
+  const { t } = useTranslation()
 
   useEffect(() => {
     window.addEventListener('scroll', (e) => {
@@ -56,8 +57,8 @@ function Header() {
   return (
     <header className={style.header} id='header'>
       <nav className={classNames([style.nav], [layout.container])}>
-        <a href='#' className={style.nav__logo} title={translate.header.logo}>
-          {translate.header.logo}
+        <a href='#' className={style.nav__logo} title={t('header.logo')}>
+          {t('header.logo')}
         </a>
         <div
           className={classNames({
@@ -69,43 +70,44 @@ function Header() {
             <li className={style.nav__item}>
               <a
                 href='#home'
-                title={translate.header.nav.home}
+                title={t('header.nav.home')}
                 className={classNames(
                   [style.nav__link],
                   style['nav__link--active']
                 )}
               >
-                {translate.header.nav.home}
+                {t('header.nav.home')}
               </a>
             </li>
             <li className={style.nav__item}>
               <a
                 href='#about'
-                title={translate.header.nav.about}
+                title={t('header.nav.about')}
                 className={style.nav__link}
               >
-                {translate.header.nav.about}
+                {t('header.nav.about')}
               </a>
             </li>
             <li className={style.nav__item}>
               <a
                 href='#services'
-                title={translate.header.nav.services}
+                title={t('header.nav.services')}
                 className={style.nav__link}
               >
-                {translate.header.nav.services}
+                {t('header.nav.services')}
               </a>
             </li>
             <li className={style.nav__item}>
               <a
                 href='#contact'
-                title={translate.header.nav.contact}
+                title={t('header.nav.contact')}
                 className={style.nav__link}
               >
-                {translate.header.nav.contact}
+                {t('header.nav.contact')}
               </a>
             </li>
             <ThemeChanger />
+            <LanguageChanger />
           </ul>
         </div>
         <div className={style.nav__toggle} onClick={() => setToggle(!toggle)}>
@@ -114,9 +116,9 @@ function Header() {
         <a
           href='#'
           className={classNames([layout.button], [style.header__button])}
-          title={translate.header.order}
+          title={t('header.order')}
         >
-          {translate.header.order}
+          {t('header.order')}
         </a>
       </nav>
     </header>

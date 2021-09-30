@@ -1,10 +1,10 @@
 import classNames from 'classnames'
+import { useTranslation } from 'react-i18next'
 import style from './Footer.module.scss'
 import layout from '@/styles/Layout.module.scss'
-import { useTranslate } from '@/hooks/useTranslate'
 
 function Footer() {
-  const translate = useTranslate()
+  const { t } = useTranslation()
 
   return (
     <footer
@@ -19,146 +19,140 @@ function Footer() {
         )}
       >
         <div className={style.footer__content}>
-          <a
-            href='#'
-            title={translate.footer.logo}
-            className={style.footer__logo}
-          >
-            {translate.footer.logo}
+          <a href='#' title={t('footer.logo')} className={style.footer__logo}>
+            {t('footer.logo')}
           </a>
-          <p className={style.footer__description}>
-            {translate.footer.description}
-          </p>
+          <p className={style.footer__description}>{t('footer.description')}</p>
         </div>
         <div className={style.footer__content}>
-          <h3 className={style.footer__title}>{translate.footer.services}</h3>
+          <h3 className={style.footer__title}>{t('footer.services')}</h3>
           <ul className={style.footer__links}>
             <li>
               <a
                 href='#'
-                title={translate.footer.pricing}
+                title={t('footer.pricing')}
                 className={style.footer__link}
               >
-                {translate.footer.pricing}
+                {t('footer.pricing')}
               </a>
             </li>
             <li>
               <a
                 href='#'
-                title={translate.footer.discounts}
+                title={t('footer.discounts')}
                 className={style.footer__link}
               >
-                {translate.footer.discounts}
+                {t('footer.discounts')}
               </a>
             </li>
             <li>
               <a
                 href='#'
-                title={translate.footer.reportBug}
+                title={t('footer.reportBug')}
                 className={style.footer__link}
               >
-                {translate.footer.reportBug}
+                {t('footer.reportBug')}
               </a>
             </li>
             <li>
               <a
                 href='#'
-                title={translate.footer.terms}
+                title={t('footer.terms')}
                 className={style.footer__link}
               >
-                {translate.footer.terms}
+                {t('footer.terms')}
               </a>
             </li>
           </ul>
         </div>
         <div className={style.footer__content}>
-          <h3 className={style.footer__title}>{translate.footer.company}</h3>
+          <h3 className={style.footer__title}>{t('footer.company')}</h3>
           <ul className={style.footer__links}>
             <li>
               <a
                 href='#'
-                title={translate.footer.blog}
+                title={t('footer.blog')}
                 className={style.footer__link}
               >
-                {translate.footer.blog}
+                {t('footer.blog')}
               </a>
             </li>
             <li>
               <a
                 href='#'
-                title={translate.footer.ourMission}
+                title={t('footer.ourMission')}
                 className={style.footer__link}
               >
-                {translate.footer.ourMission}
+                {t('footer.ourMission')}
               </a>
             </li>
             <li>
               <a
                 href='#'
-                title={translate.footer.getTouch}
+                title={t('footer.getTouch')}
                 className={style.footer__link}
               >
-                {translate.footer.getTouch}
+                {t('footer.getTouch')}
               </a>
             </li>
           </ul>
         </div>
         <div className={style.footer__content}>
-          <h3 className={style.footer__title}>{translate.footer.community}</h3>
+          <h3 className={style.footer__title}>{t('footer.community')}</h3>
           <ul className={style.footer__links}>
             <li>
               <a
                 href='#'
-                title={translate.footer.support}
+                title={t('footer.support')}
                 className={style.footer__link}
               >
-                {translate.footer.support}
+                {t('footer.support')}
               </a>
             </li>
             <li>
               <a
                 href='#'
-                title={translate.footer.questions}
+                title={t('footer.questions')}
                 className={style.footer__link}
               >
-                {translate.footer.questions}
+                {t('footer.questions')}
               </a>
             </li>
             <li>
               <a
                 href='#'
-                title={translate.footer.help}
+                title={t('footer.help')}
                 className={style.footer__link}
               >
-                {translate.footer.help}
+                {t('footer.help')}
               </a>
             </li>
           </ul>
         </div>
         <div className={style.footer__social}>
           <a
-            href={translate.footer.social.facebook.link}
+            href={t('footer.social.facebook.link')}
             target='_blank'
             rel='noreferrer'
-            title={translate.footer.social.facebook.title}
+            title={t('footer.social.facebook.title')}
             className={style['footer__social-link']}
           >
             <i className='bx bxl-facebook-circle' />
           </a>
           <a
-            href={translate.footer.social.twitter.link}
+            href={t('footer.social.twitter.link')}
             target='_blank'
             rel='noreferrer'
-            title={translate.footer.social.twitter.title}
+            title={t('footer.social.twitter.title')}
             className={style['footer__social-link']}
           >
             <i className='bx bxl-twitter' />
           </a>
           <a
-            href={translate.footer.social.instagram.link}
+            href={t('footer.social.instagram.link')}
             target='_blank'
             rel='noreferrer'
-            title={translate.footer.social.instagram.title}
+            title={t('footer.social.instagram.title')}
             className={style['footer__social-link']}
           >
             <i className='bx bxl-instagram-alt' />

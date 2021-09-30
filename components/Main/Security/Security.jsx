@@ -1,11 +1,11 @@
 import { ReactComponent as SecImg } from '@/images/security-ilustration.svg'
 import classNames from 'classnames'
-import { useTranslate } from '@/hooks/useTranslate'
+import { useTranslation } from 'react-i18next'
 import layout from '@/styles/Layout.module.scss'
 import style from './Security.module.scss'
 
 function Security() {
-  const translate = useTranslate()
+  const { t } = useTranslation()
 
   return (
     <section
@@ -19,10 +19,10 @@ function Security() {
       <div className={classNames([style.security__container], [layout.grid])}>
         <div className={style.security__data}>
           <h2 className={layout['section__title-center']}>
-            {translate.main.security.title}
+            {t('main.security.title')}
           </h2>
           <p className={style.security__description}>
-            {translate.main.security.description}
+            {t('main.security.description')}
           </p>
         </div>
         <SecImg

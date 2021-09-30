@@ -1,11 +1,11 @@
 import { ReactComponent as HomeImg } from '@/images/home-ilustration.svg'
 import classNames from 'classnames'
-import { useTranslate } from '@/hooks/useTranslate'
+import { useTranslation } from 'react-i18next'
 import layout from '@/styles/Layout.module.scss'
 import style from './Home.module.scss'
 
 function Home() {
-  const translate = useTranslate()
+  const { t } = useTranslation()
 
   return (
     <section className={classNames([style.home], [layout.section])} id='home'>
@@ -24,12 +24,12 @@ function Home() {
           )}
         />
         <div className={[style.home__data]}>
-          <h1 className={[style.home__title]}>{translate.main.home.title}</h1>
+          <h1 className={[style.home__title]}>{t('main.home.title')}</h1>
           <p className={[style.home__description]}>
-            {translate.main.home.description}
+            {t('main.home.description')}
           </p>
           <a href='#' className={[layout.button]}>
-            {translate.main.home.getStarted}
+            {t('main.home.getStarted')}
           </a>
         </div>
       </div>

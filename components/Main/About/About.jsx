@@ -1,11 +1,11 @@
 import { ReactComponent as AboutImg } from '@/images/about-ilustration.svg'
 import classNames from 'classnames'
-import { useTranslate } from '@/hooks/useTranslate'
+import { useTranslation } from 'react-i18next'
 import layout from '@/styles/Layout.module.scss'
 import style from './About.module.scss'
 
 function About() {
-  const translate = useTranslate()
+  const { t } = useTranslation()
 
   return (
     <section
@@ -19,10 +19,10 @@ function About() {
       <div className={classNames([style.about__container], [layout.grid])}>
         <div className={style.about__data}>
           <h2 className={[layout['section__title-center']]}>
-            {translate.main.about.title}
+            {t('main.about.title')}
           </h2>
           <p className={style.about__description}>
-            {translate.main.about.description}
+            {t('main.about.description')}
           </p>
         </div>
 

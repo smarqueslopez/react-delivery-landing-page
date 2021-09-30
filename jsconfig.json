@@ -6,6 +6,7 @@
       "@/hooks/*": ["hooks/*"],
       "@/pages/*": ["pages/*"],
       "@/images/*": ["public/images/*"],
+      "@/locales/*": ["public/locales/*"],
       "@/styles/*": ["styles/*"]
     }
   }

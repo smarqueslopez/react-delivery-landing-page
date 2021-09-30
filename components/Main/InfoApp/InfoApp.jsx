@@ -1,11 +1,11 @@
 import { ReactComponent as AppImg } from '@/images/app-ilustration.svg'
 import classNames from 'classnames'
-import { useTranslate } from '@/hooks/useTranslate'
+import { useTranslation } from 'react-i18next'
 import layout from '@/styles/Layout.module.scss'
 import style from './InfoApp.module.scss'
 
 function InfoApp() {
-  const translate = useTranslate()
+  const { t } = useTranslation()
 
   return (
     <section
@@ -15,10 +15,10 @@ function InfoApp() {
       <div className={classNames([style.app__container], [layout.grid])}>
         <div className={[style.app__data]}>
           <h2 className={[layout['section__title-center']]}>
-            {translate.main.app.title}
+            {t('main.app.title')}
           </h2>
           <p className={[style.app__description]}>
-            {translate.main.app.description}
+            {t('main.app.description')}
           </p>
           <div className={[style.app__buttons]}>
             <a
@@ -28,7 +28,7 @@ function InfoApp() {
               <i
                 className={classNames('bx', 'bxl-apple', [layout.button__icon])}
               ></i>
-              {translate.main.app.storeApple}
+              {t('main.app.storeApple')}
             </a>
             <a
               href='#'
@@ -39,7 +39,7 @@ function InfoApp() {
                   layout.button__icon
                 ])}
               ></i>
-              {translate.main.app.storeGoogle}
+              {t('main.app.storeGoogle')}
             </a>
           </div>
         </div>

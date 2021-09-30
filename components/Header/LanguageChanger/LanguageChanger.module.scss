@@ -1,0 +1,54 @@
+.languageChanger {
+  left: 32px;
+  margin: auto;
+  right: 32px;
+  top: 16px;
+  width: fit-content;
+
+  button {
+    width: 110px;
+    padding: 4px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7rem;
+    font-weight: 500;
+    line-height: 110%;
+    color: var(--text-color);
+    background: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+
+  span {
+    padding-left: 0.5rem;
+  }
+
+  img {
+    height: 16px;
+    width: 16px;
+    margin-right: 0.5rem;
+  }
+
+  @media (max-width: 767px) {
+    margin-right: 0;
+    right: 1.5rem;
+    top: 4.5rem;
+    position: absolute;
+    color: var(--title-color);
+
+    button {
+      width: fit-content;
+      padding: 0;
+    }
+
+    span {
+      display: none;
+    }
+
+    img {
+      margin-right: 0;
+    }
+  }
+}
