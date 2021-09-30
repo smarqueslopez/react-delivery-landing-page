@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import ThemeChanger from './ThemeChanger/ThemeChanger'
 import LanguageChanger from './LanguageChanger/LanguageChanger'
+import ColorChanger from './ColorChanger/ColorChanger'
 import useWindowDimensions from '@/hooks/useWindowDimensions'
 import classNames from 'classnames'
 import layout from '@/styles/Layout.module.scss'
@@ -107,6 +108,7 @@ function Header() {
               </a>
             </li>
             <ThemeChanger />
+            <ColorChanger />
             <LanguageChanger />
           </ul>
         </div>

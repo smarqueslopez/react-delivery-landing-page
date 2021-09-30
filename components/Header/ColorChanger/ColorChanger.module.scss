@@ -1,0 +1,33 @@
+.colorChanger {
+  display: flex;
+  column-gap: 0.25rem;
+
+  &__button {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+
+    &.yellow {
+      background-color: hsl(45, 98%, 60%);
+    }
+
+    &.red {
+      background-color: hsl(4, 90%, 60%);
+    }
+
+    &.orange {
+      background-color: hsl(18, 85%, 60%);
+    }
+
+    &.green {
+      background-color: hsl(118, 50%, 60%);
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    margin-right: 4px;
+    position: absolute;
+    right: 1.5rem;
+    top: 4.5rem;
+  }
+}

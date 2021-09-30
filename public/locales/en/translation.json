@@ -92,5 +92,11 @@
     "zoneName": "EEUU",
     "langName": "English",
     "zoneFlag": "$t(languageChanger.langName) language"
+  },
+  "colorChanger": {
+    "yellow": "change to yellow theme!",
+    "red": "change to red theme!",
+    "orange": "change to orange theme!",
+    "green": "change to green theme!"
   }
 }

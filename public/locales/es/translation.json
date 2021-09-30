@@ -92,5 +92,11 @@
     "zoneName": "España",
     "langName": "Castellano",
     "zoneFlag": "Idioma $t(languageChanger.langName)"
+  },
+  "colorChanger": {
+    "yellow": "¡Cambia a color amarillo!",
+    "red": "¡Cambia a color rojo!",
+    "orange": "¡Cambia a color naranja!",
+    "green": "¡Cambia a color verde!"
   }
 }
