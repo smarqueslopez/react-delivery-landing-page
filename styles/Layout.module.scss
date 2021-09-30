@@ -45,11 +45,13 @@
 .svg {
   &__color {
     fill: var(--first-color);
+    transition: 0.4s;
   }
 
   &__blob {
     path[fill-rule='evenodd'] {
       fill: var(--first-color-light);
+      transition: 0.4s;
     }
   }
 
@@ -87,7 +89,7 @@
   padding: 0.75rem 1.5rem;
   border-radius: 3rem;
   font-weight: var(--font-semi-bold);
-  transition: 0.3s;
+  transition: 0.4s;
 
   &:hover {
     background-color: var(--first-color-alt);
