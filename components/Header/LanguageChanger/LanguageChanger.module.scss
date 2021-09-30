@@ -1,9 +1,10 @@
 .languageChanger {
   left: 32px;
-  margin: auto;
   right: 32px;
   top: 16px;
   width: fit-content;
+  margin: auto;
+  color: var(--text-color);
 
   button {
     width: 110px;
@@ -31,12 +32,11 @@
     margin-right: 0.5rem;
   }
 
-  @media (max-width: 767px) {
+  @media screen and (max-width: 767px) {
     margin-right: 2px;
     right: 1.5rem;
-    top: 4.5rem;
+    top: 6.5rem;
     position: absolute;
-    color: var(--title-color);
 
     button {
       width: fit-content;
