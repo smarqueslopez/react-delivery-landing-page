@@ -1,34 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Delivery
 
-## Getting Started
+Live demo [here](https://react-delivery-landing-page.vercel.app/).
 
-First, run the development server:
+## React responsive website delivery landing page 🚚
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### Landing page
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This is a [Next.js](https://nextjs.org/) project using [React.js](https://reactjs.org/) for building user interfaces and [SCSS Modules](https://github.com/css-modules) for styling it.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+<img src="./documents/web.png?raw=true" width="100%" alt="Landing page"/>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### Responsive page
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+This landing web was created by "mobile first" strategy.
 
-## Learn More
+<img src="./documents/responsive-web.gif?raw=true" width="100%" alt="Responsive page" />
 
-To learn more about Next.js, take a look at the following resources:
+### Dark/Light theme
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+You can switch between dark and light theme.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<img src="./documents/dark-theme-web.gif?raw=true" width="100%" alt="Dark/Light theme page" />
 
-## Deploy on Vercel
+### Colorized theme
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+You can switch between many color in page.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<img src="./documents/color-theme-web.gif?raw=true" width="100%" alt="Dark/Light theme page" />
+
+### Translated page
+
+You can switch between English/Spanish language.
+
+<img src="./documents/translate-web.gif?raw=true" width="100%" alt="Translate page" />
+
+## Deployed on [Vercel](https://www.vercel.com/)
+
+You can view a live demo [here](https://react-delivery-landing-page.vercel.app/).
+
+## Links
+- Icons https://boxicons.com/
+- Fonts https://fonts.google.com/
+- Dopely https://colors.dopely.top/
+- Images https://www.freepik.es/stories/
+- Special thanks to [Bedimcode](https://github.com/bedimcode), support them in youtube [here](https://www.youtube.com/Bedimcode)!
