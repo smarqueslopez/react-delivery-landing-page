@@ -117,7 +117,9 @@ function Header() {
         </div>
         <a
           href='#'
-          className={classNames([layout.button], [style.header__button])}
+          className={classNames([layout.button], {
+            [layout.hidden]: width < 960
+          })}
           title={t('header.order')}
         >
           {t('header.order')}

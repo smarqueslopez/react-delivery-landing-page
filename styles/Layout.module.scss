@@ -112,6 +112,10 @@
     padding: 0.75rem 1rem;
   }
 
+  &.hidden {
+    display: none;
+  }
+
   &__icon {
     font-size: 1.5rem;
   }
