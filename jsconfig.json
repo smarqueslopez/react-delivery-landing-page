@@ -9,5 +9,7 @@
       "@/locales/*": ["public/locales/*"],
       "@/styles/*": ["styles/*"]
     }
-  }
+  },
+  "include": ["."],
+  "exclude": [".next", "node_modules", "documents"]
 }
